@@ -27,8 +27,5 @@ jobs:
     - name: Test    
       run: go test ./...
 
-    - name: Make
-      run: make build
-
     - name: Make unit-tests
       run: make unit-tests
